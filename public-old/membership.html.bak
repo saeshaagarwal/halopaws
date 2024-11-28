@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Membership</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/tmStickUp.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+
+    <script>
+        $(window).load(function() {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+            $('#stuck_container').tmStickUp({});
+        });
+    </script>
+    <!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+    <!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+
+<body class="" id="top">
+    <!--==============================
+              header
+=================================-->
+    <header>
+        <div class="container_12">
+            <div class="grid_12">
+                <h1 class="logo">
+                    <a href="index.html">
+          Halo Paws
+          <span>Making a Difference One Paw at a Time!</span>
+        </a>
+                </h1>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <section id="stuck_container">
+            <!--==============================
+              Stuck menu
+  =================================-->
+            <div class="container_12">
+                <div class="grid_12">
+                    <div class="navigation ">
+                        <nav>
+                            <ul class="sf-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="current"><a href="membership.html">Shop</a></li>
+                                <li><a href="mission.html">Mission</a></li>
+                                <li><a href="contacts.html">Contact Us</a></li>
+                                <li>
+                                    <a>
+                                        <form action="https://www.paypal.com/donate" method="post" target="_top">
+                                            <input type="hidden" name="hosted_button_id" value="C2TEK7B4BTGF6" />
+                                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                                            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                        </form>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                            <input type="hidden" name="cmd" value="_s-xclick">
+                                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIG1QYJKoZIhvcNAQcEoIIGxjCCBsICAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCLFRrDqmiO08htRrAtW1MkSCVEazyz62zOKOC6lxdmcYf5zV97qk5uRw+nazfoapFlB/XYnfXIw+sovg+tDGgnEBryONfolmIpiasMGkIEuY2oT+tTNK2CQf2z8gd8dRauQK+Tq1Rry5rP64xTYeQoaEE9vforFttegzx2hFbyETELMAkGBSsOAwIaBQAwUwYJKoZIhvcNAQcBMBQGCCqGSIb3DQMHBAgIjcOCznKGX4AwmvFKn3a/m9SYBzLOWT9Af/SAVzKjhOrYICtQ6gaTkI56IxQe9iS3NbgansCsP6JVoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjEwMzAyMTk1OTA0WjAjBgkqhkiG9w0BCQQxFgQU1airZ/5GwcyUYHwoM9vgTv5bWqYwDQYJKoZIhvcNAQEBBQAEgYAetZZczavW1Eam3iLIA7dcXSEqaTFQeWKvXepsepMM/hGkxC75tmtwODz8nVuXAKuS2cabNiEKml91UOt97rfJXM/3rN4VBkUrfkli5nMjlHdkPiyE1zRfNLorgP3DwX3fjaF1CkC1K5KskCkHCQK+2FUm+0TkxsBwziHZgVOT6Q==-----END PKCS7-----">
+                                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                        </form>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+    </header>
+    <!--=====================
+          Content
+======================-->
+    <section id="content">
+        <div class="ic">More Website Templates @ TemplateMonster.com - September22, 2014!</div>
+        <div class="container_12">
+            <div class="grid_12">
+                <h2 class="ta__center">Shop</h2>
+                <h3>
+                    <center>Handmade Rings! Or donate using the link below!
+                        <form action="https://www.paypal.com/donate" method="post" target="_top">
+                            <input type="hidden" name="hosted_button_id" value="C2TEK7B4BTGF6" />
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                        </form>
+                    </center>
+                </h3>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring9.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Midnight Ring <br> $9</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="MYVH4CSD3XXNW">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring23.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Emerald Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="EXFAS3RPBX5JA">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring13.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Gold Rose Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="9UWTAJEEKVFEC">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring24.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Dual Flame Rings <br> $8 - set of 2</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="AX5J8NKMZLKEU">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring22.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Dual Wave Rings <br> $8 - set of 2</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="3HLJSUV5W3SLS">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring3.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Pink Beaded Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="UXWTH3P9A58T2">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring14.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">White Pearl Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="54XMZ6BSHBLL4">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring19.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Periwinkle Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="8535KSK2ZSZDA">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring11.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Silver Rose Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="8RZSZ3A5HU4YJ">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring15.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Pink Pearl Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="WKC53BC5KU5GA">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring2.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Fire Opal Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="YXV3CTJ9WGLFE">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring25.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Crystal Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="MLKMSFKH6LBQ2">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring18.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Sun Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="L36MZNNAKDQYC">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring7.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Oceanside Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="T859WJ9KED8ZU">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring12.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Pink Droplet Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="XD59974V3Z72E">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring21.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Aventurine Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="MFFQYRQ3RH73A">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring17.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Arctic Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="FYT9MNY3E6PZS">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring5.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Sea Foam Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="UCGLGSQ42ZHBW">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring16.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Mahogany Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="W8XNBVXEPA97Y">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring10.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1"> Blossom Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="HCM9UZZQDFZJY">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring6.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Lilac Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="62VF69GLHV9GW">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring20.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Amethyst Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="JKN3GETCYB9TW">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring8.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Blue Beaded Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="2M2JU45BH2BF4">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring1.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Topaz Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="PJ3B4VX54MYYL">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3">
+                <div class="banner-1">
+                    <div class="maxheight">
+                        <img src="images/ring4.jpeg" alt="">
+                        <div class="banner-1_bot">
+                            <div class="text1 tx__1">Sapphire Ring <br> $8</div>
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="P65HC7FXUSPX4">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Ring Size">Ring Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                <option value="4.5">4.5 </option>
+                <option value="5">5 </option>
+                <option value="5.5">5.5 </option>
+                <option value="6">6 </option>
+                <option value="6.5">6.5 </option>
+                <option value="7">7 </option>
+                <option value="7.5">7.5 </option>
+                <option value="8">8 </option>
+                <option value="8.5">8.5 </option>
+                <option value="9">9 </option>
+              </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- <article class="block-1 white">
+    <div class="container_12">
+      <div class="grid_8">
+        <h3>Our Activities</h3>
+        <img src="images/page4_img5.jpg"  alt="" class="img_inner fleft offset__2">
+        <div class="extra_wrapper">
+          <p class="color1"><a href="#">Amus at magna non nunc tristique rhoncus. Aliquam nibh antegestas id dictum a, commodo luctus libero.</a></p>
+          <p> Praesent faucibus malesuada faucibus. Donec laoreet metus id laoreetoreto esuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur </p>
+          Bulla facilisis consequat. Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. 
+        </div>
+        <div class="clear sep-2"></div>
+        Amus at magna non nunc tristique rhoncus. Aliquam nibh antegestas id dictum a, commodo luctus libero. Praesent faucibus malesuada faucibus. Donec laoreet metus id laoreetoreto esuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur 
+        <ul class="list-2 color1">
+          <li><a href="#">Amus at magna non nunc tristique rhoncus</a></li>
+          <li><a href="#">Praesent onec laoreet metus id laoreetoreto </a></li>
+          <li><a href="#">Tsuadaipsum dolor sit amet, consectetur </a></li>
+        </ul>
+      </div>
+      <div class="grid_4">
+        <div class="banner-2"><img src="images/page4_img6.jpg" alt="">
+          <div class="banner-2_bot">
+            <div class="banner-2_title">
+              Join Us!
+            </div>
+            Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat 
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </article> -->
+    </section>
+    <!--==============================
+              footer
+=================================-->
+    <!-- <footer id="footer">
+  <div class="container_12">
+    <div class="grid_12"> 
+      <h1 class="logo">
+        <a href="index.html">
+          LIGHT
+        </a>
+      </h1>
+      <div class="socials">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>  
+</footer> -->
+    <a href="#" id="toTop" class="fa fa-angle-up"></a>
+</body>
+
+</html>
