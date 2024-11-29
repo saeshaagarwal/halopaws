@@ -2,606 +2,442 @@
 <html lang="en">
 
 <head>
-    <title>Mission</title>
+    <title>Halo Paws - Make a Difference One Paw at a Time!</title>
     <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no" />
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="shortcut icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.1.1.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/superfish.js"></script>
-    <script src="js/jquery.equalheights.js"></script>
-    <script src="js/jquery.mobilemenu.js"></script>
-    <script src="js/tmStickUp.js"></script>
-    <script src="js/jquery.ui.totop.js"></script>
-
-    <script>
-        $(window).load(function() {
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-            $('#stuck_container').tmStickUp({});
-        });
-    </script>
-    <!--[if lt IE 8]>
- <div style=' clear: both; text-align:center; position: relative;'>
-   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-   </a>
-</div>
-<![endif]-->
-    <!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-<![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
 </head>
 
-<body class="" id="top">
-    <!--==============================
-              header
-=================================-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/vendor.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="link" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M12 19a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0-4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm-5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm7-12h-1V2a1 1 0 0 0-2 0v1H8V2a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V6a1 1 0 0 1 1-1h1v1a1 1 0 0 0 2 0V5h8v1a1 1 0 0 0 2 0V5h1a1 1 0 0 1 1 1ZM7 15a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0 4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-right" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="category" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 5.5h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="calendar" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="heart" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M20.16 4.61A6.27 6.27 0 0 0 12 4a6.27 6.27 0 0 0-8.16 9.48l7.45 7.45a1 1 0 0 0 1.42 0l7.45-7.45a6.27 6.27 0 0 0 0-8.87Zm-1.41 7.46L12 18.81l-6.75-6.74a4.28 4.28 0 0 1 3-7.3a4.25 4.25 0 0 1 3 1.25a1 1 0 0 0 1.42 0a4.27 4.27 0 0 1 6 6.05Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="plus" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M19 11h-6V5a1 1 0 0 0-2 0v6H5a1 1 0 0 0 0 2h6v6a1 1 0 0 0 2 0v-6h6a1 1 0 0 0 0-2Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="minus" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M19 11H5a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="cart" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M8.5 19a1.5 1.5 0 1 0 1.5 1.5A1.5 1.5 0 0 0 8.5 19ZM19 16H7a1 1 0 0 1 0-2h8.491a3.013 3.013 0 0 0 2.885-2.176l1.585-5.55A1 1 0 0 0 19 5H6.74a3.007 3.007 0 0 0-2.82-2H3a1 1 0 0 0 0 2h.921a1.005 1.005 0 0 1 .962.725l.155.545v.005l1.641 5.742A3 3 0 0 0 7 18h12a1 1 0 0 0 0-2Zm-1.326-9l-1.22 4.274a1.005 1.005 0 0 1-.963.726H8.754l-.255-.892L7.326 7ZM16.5 19a1.5 1.5 0 1 0 1.5 1.5a1.5 1.5 0 0 0-1.5-1.5Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="check" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M18.71 7.21a1 1 0 0 0-1.42 0l-7.45 7.46l-3.13-3.14A1 1 0 1 0 5.29 13l3.84 3.84a1 1 0 0 0 1.42 0l8.16-8.16a1 1 0 0 0 0-1.47Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="trash" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M10 18a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1ZM20 6h-4V5a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H4a1 1 0 0 0 0 2h1v11a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8h1a1 1 0 0 0 0-2ZM10 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm7 14a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8h10Zm-3-1a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="star-outline" viewBox="0 0 15 15">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+          d="M7.5 9.804L5.337 11l.413-2.533L4 6.674l2.418-.37L7.5 4l1.082 2.304l2.418.37l-1.75 1.793L9.663 11L7.5 9.804Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="star-solid" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="search" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="user" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M15.71 12.71a6 6 0 1 0-7.42 0a10 10 0 0 0-6.22 8.18a1 1 0 0 0 2 .22a8 8 0 0 1 15.9 0a1 1 0 0 0 1 .89h.11a1 1 0 0 0 .88-1.1a10 10 0 0 0-6.25-8.19ZM12 12a4 4 0 1 1 4-4a4 4 0 0 1-4 4Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 15 15">
+        <path fill="currentColor"
+          d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z" />
+      </symbol>
+
+    </defs>
+  </svg>
+
+    <div class="preloader-wrapper">
+        <div class="preloader">
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart" aria-labelledby="My Cart">
+        <div class="offcanvas-header justify-content-center">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasSearch" aria-labelledby="Search">
+        <div class="offcanvas-header justify-content-center">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+    </div>
+
     <header>
-        <div class="container_12">
-            <div class="grid_12">
-                <h1 class="logo">
-                    <a href="index.html">
-          Halo Paws
-          <span>Making a Difference One Paw at a Time!</span>
-        </a>
-                </h1>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <section id="stuck_container">
-            <!--==============================
-              Stuck menu
-  =================================-->
-            <div class="container_12">
-                <div class="grid_12">
-                    <div class="navigation ">
-                        <nav>
-                            <ul class="sf-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="membership.html">Shop</a></li>
-                                <li class="current"><a href="mission.html">Mission</a></li>
-                                <li><a href="contacts.html">Contact Us</a></li>
-                                <li>
-                                    <a>
-                                        <form action="https://www.paypal.com/donate" method="post" target="_top">
-                                            <input type="hidden" name="hosted_button_id" value="C2TEK7B4BTGF6" />
-                                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                                            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                        </form>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                            <input type="hidden" name="cmd" value="_s-xclick">
-                                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                        </form>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
+        <div class="container py-2">
+            <div class="col-lg-3 text-center text-sm-start">
+                <div class="main-logo">
+                    <a href="index.html"> </a>
                 </div>
-                <div class="clear"></div>
             </div>
-        </section>
+
+            <div class="support-box text-center">
+                <h1 class="mb-0"> HALO PAWS</h1>
+                <h5> Making a Difference One Paw at a Time! </h5>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <hr class="m-0">
+        </div>
+
+        <div class="container">
+            <nav class="main-menu d-flex navbar navbar-expand-lg ">
+
+                <div class="d-flex d-lg-none align-items-end mt-3">
+                    <ul class="d-flex justify-content-end list-unstyled m-0">
+                    </ul>
+
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header justify-content-center">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body justify-content-between">
+
+                        <ul class="navbar-nav menu-list list-unstyled d-flex gap-md-3 mb-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link ">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="shop.html" class="nav-link">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="mission.html" class="nav-link active">Mission</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="team.html" class="nav-link">Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a>
+                                    <form action="https://www.paypal.com/donate" method="post" target="_top" style="margin-top: 10px;">
+                                        <input type="hidden" name="hosted_button_id" value="C2TEK7B4BTGF6" />
+                                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                    </form>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a>
+                                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-top: 10px;">
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </form>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+
+
+
+        </div>
     </header>
-    <!--=====================
-          Content
-======================-->
-    <section id="content">
-        <div class="ic">More Website Templates @ TemplateMonster.com - September22, 2014!</div>
-        <div class="container_12">
-            <div class="grid_12">
-                <h2>Our Current Mission</h2>
-                <img src="images/sophie.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                <div class="extra_wrapper">
-                    <div class="text1 tx__2"><a href="#">Sophie, aka Sweetpea</a></div>
-                    <p> We have now made it to our fifth mission! Meet Sophie, aka Sweetpea! Sophie has had a hard life in terms of finding a forever home. CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/) has been kind enough to pay
-                        for her care until they are able to find a stable foster home for her. Our goal is to raise $400 to help CrisisDogsNC continue to support Sophie until she finds a home. For more information on Sophie, or to adopt her, visit https://crisisdogsnc.org/dog/sweet-pea/.
-                    </p>
 
-                    Our mission is to help other animals like Sophie, whether that be with their medical or shelter needs. You can help us reach our goal and make a difference in Sophie's life by purchasing our rings or donating directly to her cause. 100% of the profits
-                    made by our rings will go towards animals in need, currently focusing on Sophie. <br>
+    <div class="container-fluid">
+        <hr class="m-0">
+    </div>
+    <section id="banner" style="background: white;">
+        <div class="container">
+            <div class="row banner-content align-items-center">
+                <div class="img-wrapper col-md-5">
+                    <img src="images/blanche.png" class="img-fluid" id="mission-image">
+                </div>
+                <div class="content-wrapper col-md-7 p-5 mb-5">
+                    <h5 class="banner-title display-6 fw-normal">
+                        <u>Current Mission:</u> Blanche
+                    </h5>
+                    <p>After completing our goal for Sugar and Honey, we are ready to tackle our next project… Blanche! Blanche was recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Blanche's owner is terminal and
+                        unable to take care of her. She had a very bad UTI infection and is currently dealing with heartworms. She hasn't been sprayed and needs dental treatment.</p>
+                    <p>Our goal is to raise $1500 to help CrisisDogsNC cover the costs of her medical bills. Our mission is to help other animals like Blanche, whether that be with their medical or shelter needs. You can help us reach our goal and make a
+                        difference in Blanche's lives by purchasing our rings or dionating directly to their cause. 100% of the profits made by our rings will go towards animals in need, currently focusing on Blanche!</p>
                 </div>
             </div>
-            <div class="clear"></div>
         </div>
-        <!-- <article class="block-1 offset__1"> -->
-        <!-- <div class="container_12"> -->
-        <!-- <div class="grid_12">
-        <h3>Local Outreach</h3>
-      </div>    
-      <ul class="list-1 lst__1">
-        <li class="grid_4">
-          <div class="count">1</div> <br>
-          Korem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elits.
-          <br>
-          <a href="#" class="link-1 white">Read More</a>
-        </li>
-        <li class="grid_4">
-          <div class="count">2</div> <br>
-          Horem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing eler.
-          <br>
-          <a href="#" class="link-1 white">Read More</a>
-        </li>
-        <li class="grid_4">
-          <div class="count">3</div> <br>
-          Aorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elitas.
-          <br>
-          <a href="#" class="link-1 white">Read More</a>
-        </li>
-        <li class="clear"></li>
-      </ul> -->
-        <!-- </div> -->
-        <!-- </article> -->
-        <!-- <div class="container_12">
-    <div class="grid_12">
-      <h3>International Mission</h3>
-    </div>
-    <div class="grid_4">
-      <img src="images/page3_img1.jpg" alt="" class="img_inner offset__1">
-      <div class="text1"><a href="#">Vestibullutpat</a></div>
-      Morem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing eli.
-    </div>
-    <div class="grid_4">
-      <img src="images/page3_img2.jpg" alt="" class="img_inner offset__1">
-      <div class="text1"><a href="#">Mestiohnson</a></div>
-      Sorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elitas.
-    </div>
-    <div class="grid_4">
-      <img src="images/page3_img3.jpg" alt="" class="img_inner offset__1">
-      <div class="text1"><a href="#">Stibulume</a></div>
-      Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.
-    </div>
-    <div class="clear"></div> -->
-        <!-- </div> -->
-        <article class="block-1 offset__2">
-            <div class="container_12">
-                <div class="grid_12">
-                    <h2>How You Can Help Change the World </h2>
-                </div>
-                <ul class="list-1 lst__1">
-                    <li class="grid_4">
-                        <div class="count">1</div>
-                        <div class="text1"><a href="#">Support</a></div>
-                        You can support Halo Paws and the animals that we are funding in many ways! One way is thorugh donating! You can also tell others about our non-profit. We care and value every one of our donors. There are many ways to donate money including by purchasing
-                        our rings or by donating directly to the animals! Every penny of our profit goes towards saving animals in need. Every action that you make to support our non-profit will not go unseen, and is making an immense difference in the
-                        lives of the animals we are supporting.
-                    </li>
-                    <li class="grid_4">
-                        <div class="count">2</div>
-                        <div class="text1"><a href="#">Donate</a></div>
-                        Along with purchasing our rings, you can always donate! Donating is one of the best ways to help make a difference for our animals! Every penny counts and each donation or purchase means more to us and the animals than you could every imagine!
-                    </li>
-                    <li class="grid_4">
-                        <div class="count">3</div>
-                        <div class="text1"><a href="#">Spread the Word</a></div>
-                        Tell your friends, family, and others about our non-profit! This is one of the best ways that you can help make a difference in the lives of animals! By raising awareness about our cause, we can get more support and funding for the animals in need. As
-                        Ryonosuke Satoro said, "Individually, we are one drop. Together, we are an ocean."
-                    </li>
-                    <li class="clear"></li>
-                </ul>
-            </div>
-        </article>
     </section>
-    <section id="content">
-        <div class="ic">More Website Templates @ TemplateMonster.com - September22, 2014!</div>
-        <div class="container_12">
-            <div class="grid_12">
-                <h2>Our 4th Mission - Completed :)</h2>
-                <img src="images/busterbrown.jpeg" alt="" wideth="400" height="300" class="img_inner fleft">
-                <div class="extra_wrapper">
-                    <div class="text1 tx__2"><a href="#">Buster Brown</a></div>
-                    <p>Our fourth mission is to make a difference in Buster Brown's life. He was hit by a car very recently and is currently at the vet after being rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Buster
-                        Brown needs surgery due to his fractured pelvis on one side and a smashed sacrum. Our goal is to raise $1000 to help CrisisDogsNC cover the costs of his surgery. </p>
 
-                    <br>
+    <div class="container-fluid">
+        <hr class="m-0">
+    </div>
+
+    <section id="categories">
+        <div class="row py-4 text-center" style="background-color:#eebcea">
+            <h1 class="mb-0"> How You Can help us change the world!</h2>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <hr class="m-0">
+    </div>
+
+    <section id="service">
+        <div class="container py-0 my-5">
+            <div class="row g-md-5 pt-4">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <div>
+                            <iconify-icon class="service-icon text-primary" icon=mdi:charity></iconify-icon>
+                        </div>
+                        <h3 class="card-title py-2 m-0 ">Join Our Mission</h3>
+                        <div class="card-text ">
+                            <p class="blog-paragraph fs-6 ">Join our community of animal lovers and advocates who are making a real difference. Together, we can transform the lives of animals in need—one paw at a time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3 ">
+                    <div class="card ">
+                        <div>
+                            <iconify-icon class="service-icon text-primary " icon=mdi:hand-heart></iconify-icon>
+                        </div>
+                        <h3 class="card-title py-2 m-0 ">Donate</h3>
+                        <div class="card-text ">
+                            <p class="blog-paragraph fs-6 ">Your generosity makes it possible to rescue and care for animals in need. Every donation, big or small, has the power to save lives and bring hope.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3 ">
+                    <div class="card ">
+                        <div>
+                            <iconify-icon class="service-icon text-primary" icon=mdi:bullhorn-outline></iconify-icon>
+                        </div>
+                        <h3 class=" card-title py-2 m-0 ">Spread the Word</h3>
+                        <div class="card-text ">
+                            <p class="blog-paragraph fs-6 ">Help us expand our reach by sharing our mission with your friends, family, and community. Every conversation sparks a ripple effect of kindness and support for animals in need.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3 ">
+                    <div class="card ">
+                        <div>
+                            <iconify-icon class="service-icon text-primary " icon=mdi:cart-outline></iconify-icon>
+                        </div>
+                        <h3 class="card-title py-2 m-0 ">Shop</h3>
+                        <div class="card-text ">
+                            <p class="blog-paragraph fs-6 ">When you shop with us, you’re not just buying a ring—you’re helping save lives. 100% of our profits go directly toward supporting animals in need.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <section id="content">
-                <div class="ic">More Website Templates @ TemplateMonster.com - September22, 2014!</div>
-                <div class="container_12">
-                    <div class="grid_12">
-                        <h2>Our 3rd Mission - Completed!</h2>
-                        <img src="images/chloe.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                        <div class="extra_wrapper">
-                            <div class="text1 tx__2"><a href="#">Chloe</a></div>
-                            <p> Now that we have completed two missions, we are moving onto making a difference in the life of a third animal in need. Chloe. She is a new rescue dog at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/).
-                                In her previous home, her owner threatened to shoot her. CrisisDogsNC tried to get her away from the situation for months and finally he agreed to let her go. She has no vetting. Our goal for Chloe is to raise $235 for
-                                her medical needs, including shots and spaying. </p>
-                            <br>
-                        </div>
-                    </div>
-                    <div class="container_12">
-                        <div class="grid_12">
-                            <h2>Our 2nd Mission - Completed! </h2>
-                            <img src="images/palmer.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                            <div class="extra_wrapper">
-                                <div class="text1 tx__2"><a href="#">Palmer</a></div>
-                                <p> After successfully completing our first mission, we are moving onto making a difference in the life of another animal in need. Palmer. Palmer is an Australian cattle dog mix at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/).
-                                    In his past, Palmer has been seriously neglected. He has damaged and sore-covered paw pads, sanded down teeth, and has tested positive for heartworm. Our initial goal for Palmer is to raise $200 for his wound treatment
-                                    and neutering. You can help us reach our goal and make a difference in Palmer's life by purchasing our rings or donating directly to his cause. 100% of the profits made by our rings will go towards animals in need.
-                                </p>
-                                <br>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="container_12">
-                        <div class="grid_12">
-                            <h2>Our 1st Mission - Completed :)</h2>
-                            <img src="images/sadiemae1.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                            <div class="extra_wrapper">
-                                <div class="text1 tx__2"><a href="#">Sadie Mae</a></div>
-                                <p> Our first mission. Sadie Mae. Sadie Mae is an 8 month old puppy at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Sadie Mae needs fundraising because she needs to be spayed and chipped. Raising
-                                    $130 is our goal for Sadie Mae, covering both of those costs.</p>
-                                <br>
-                            </div>
-                        </div>
-                        <!DOCTYPE html>
-                        <html lang="en">
+        </div>
+    </section>
 
-                        <head>
-                            <title>Mission</title>
-                            <meta charset="utf-8">
-                            <meta name="format-detection" content="telephone=no" />
-                            <link rel="icon" href="images/favicon.ico">
-                            <link rel="shortcut icon" href="images/favicon.ico" />
-                            <link rel="stylesheet" href="css/style.css">
-                            <script src="js/jquery.js"></script>
-                            <script src="js/jquery-migrate-1.1.1.js"></script>
-                            <script src="js/jquery.easing.1.3.js"></script>
-                            <script src="js/script.js"></script>
-                            <script src="js/superfish.js"></script>
-                            <script src="js/jquery.equalheights.js"></script>
-                            <script src="js/jquery.mobilemenu.js"></script>
-                            <script src="js/tmStickUp.js"></script>
-                            <script src="js/jquery.ui.totop.js"></script>
-
-                            <script>
-                                $(window).load(function() {
-                                    $().UItoTop({
-                                        easingType: 'easeOutQuart'
-                                    });
-                                    $('#stuck_container').tmStickUp({});
-                                });
-                            </script>
-                            <!--[if lt IE 8]>
-                         <div style=' clear: both; text-align:center; position: relative;'>
-                           <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-                             <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-                           </a>
-                        </div>
-                        <![endif]-->
-                            <!--[if lt IE 9]>
-                        <script src="js/html5shiv.js"></script>
-                        <link rel="stylesheet" media="screen" href="css/ie.css">
-                        <![endif]-->
-                        </head>
-
-                        <body class="" id="top">
-                            <!--==============================
-                                      header
-                        =================================-->
-                            <header>
-                                <div class="container_12">
-                                    <div class="grid_12">
-                                        <h1 class="logo">
-                                            <a href="index.html">
-                                  Halo Paws
-                                  <span>Making a Difference One Paw at a Time!</span>
-                                </a>
-                                        </h1>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                                <section id="stuck_container">
-                                    <!--==============================
-                                      Stuck menu
-                          =================================-->
-                                    <div class="container_12">
-                                        <div class="grid_12">
-                                            <div class="navigation ">
-                                                <nav>
-                                                    <ul class="sf-menu">
-                                                        <li><a href="index.html">Home</a></li>
-                                                        <li><a href="membership.html">Shop</a></li>
-                                                        <li class="current"><a href="mission.html">Mission</a></li>
-                                                        <li><a href="contacts.html">Contact Us</a></li>
-                                                        <li>
-                                                            <a>
-                                                                <form action="https://www.paypal.com/donate" method="post" target="_top">
-                                                                    <input type="hidden" name="hosted_button_id" value="C2TEK7B4BTGF6" />
-                                                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                                                                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                                </form>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a>
-                                                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                                                    <input type="hidden" name="cmd" value="_s-xclick">
-                                                                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                                                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                                                </form>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                                <div class="clear"></div>
-                                            </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </section>
-                            </header>
-                            <!--=====================
-                                  Content
-                        ======================-->
-                            <section id="content">
-                                <div class="container_12">
-                                    <div class="grid_12">
-                                        <h2>Our Current Mission</h2>
-                                        <img src="images/blanche.jpeg" alt="" wideth="400" height="300" class="img_inner fleft">
-                                        <div class="extra_wrapper">
-                                            <div class="text1 tx__2"><a href="#">Blanche</a></div>
-                                            <p> After completing our goal for Sugar and Honey, we are ready to tackle our next project… Blanche! Blanche was recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Blanche's
-                                                owner is terminal and unable to take care of her. She had a very bad UTI infection and is currently dealing with heartworms. She hasn't been sprayed and needs dental treatment. Our goal is to raise $1500
-                                                to help CrisisDogsNC cover the costs of her medical bills.
-                                            </p>
-                                            Our mission is to help other animals like Blanche, whether that be with their medical or shelter needs. You can help us reach our goal and make a difference in Blanche's lives by purchasing our rings or dionating directly to their cause. 100% of the profits
-                                            made by our rings will go towards animals in need, currently focusing on Blanche! <br>
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                                <!-- <article class="block-1 offset__1"> -->
-                                <!-- <div class="container_12"> -->
-                                <!-- <div class="grid_12">
-                                <h3>Local Outreach</h3>
-                              </div>    
-                              <ul class="list-1 lst__1">
-                                <li class="grid_4">
-                                  <div class="count">1</div> <br>
-                                  Korem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elits.
-                                  <br>
-                                  <a href="#" class="link-1 white">Read More</a>
-                                </li>
-                                <li class="grid_4">
-                                  <div class="count">2</div> <br>
-                                  Horem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing eler.
-                                  <br>
-                                  <a href="#" class="link-1 white">Read More</a>
-                                </li>
-                                <li class="grid_4">
-                                  <div class="count">3</div> <br>
-                                  Aorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elitas.
-                                  <br>
-                                  <a href="#" class="link-1 white">Read More</a>
-                                </li>
-                                <li class="clear"></li>
-                              </ul> -->
-                                <!-- </div> -->
-                                <!-- </article> -->
-                                <!-- <div class="container_12">
-                            <div class="grid_12">
-                              <h3>International Mission</h3>
-                            </div>
-                            <div class="grid_4">
-                              <img src="images/page3_img1.jpg" alt="" class="img_inner offset__1">
-                              <div class="text1"><a href="#">Vestibullutpat</a></div>
-                              Morem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing eli.
-                            </div>
-                            <div class="grid_4">
-                              <img src="images/page3_img2.jpg" alt="" class="img_inner offset__1">
-                              <div class="text1"><a href="#">Mestiohnson</a></div>
-                              Sorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elitas.
-                            </div>
-                            <div class="grid_4">
-                              <img src="images/page3_img3.jpg" alt="" class="img_inner offset__1">
-                              <div class="text1"><a href="#">Stibulume</a></div>
-                              Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.
-                            </div>
-                            <div class="clear"></div> -->
-                                <!-- </div> -->
-                                <article class="block-1 offset__2">
-                                    <div class="container_12">
-                                        <div class="grid_12">
-                                            <h2>How You Can Help Change the World </h2>
-                                        </div>
-                                        <ul class="list-1 lst__1">
-                                            <li class="grid_4">
-                                                <div class="count">1</div>
-                                                <div class="text1"><a href="#">Support</a></div>
-                                                You can support Halo Paws and the animals that we are funding in many ways! One way is thorugh donating! You can also tell others about our non-profit. We care and value every one of our donors. There are many ways to donate money including by purchasing
-                                                our rings or by donating directly to the animals! Every penny of our profit goes towards saving animals in need. Every action that you make to support our non-profit will not go unseen, and is making an
-                                                immense difference in the lives of the animals we are supporting.
-                                            </li>
-                                            <li class="grid_4">
-                                                <div class="count">2</div>
-                                                <div class="text1"><a href="#">Donate</a></div>
-                                                Along with purchasing our rings, you can always donate! Donating is one of the best ways to help make a difference for our animals! Every penny counts and each donation or purchase means more to us and the animals than you could every imagine!
-                                            </li>
-                                            <li class="grid_4">
-                                                <div class="count">3</div>
-                                                <div class="text1"><a href="#">Spread the Word</a></div>
-                                                Tell your friends, family, and others about our non-profit! This is one of the best ways that you can help make a difference in the lives of animals! By raising awareness about our cause, we can get more support and funding for the animals in need. As
-                                                Ryonosuke Satoro said, "Individually, we are one drop. Together, we are an ocean."
-                                            </li>
-                                            <li class="clear"></li>
-                                        </ul>
-                                    </div>
-                                </article>
-                            </section>
-                            <section id="content">
-                                <div class="container_12">
-                                    <div class="grid_12">
-                                        <h2>Our 8th Mission - Completed!</h2>
-                                        <img src="images/sugarhoney.jpeg" alt="" wideth="400" height="300" class="img_inner fleft">
-                                        <div class="extra_wrapper">
-                                            <div class="text1 tx__2"><a href="#">Sugar and Honey</a></div>
-                                            <p>Meet our first fundraising duo: Sugar and Honey! This mother and daughter were recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Honey, mom to Sugar, has severe dental
-                                                disease, cherry eye, and needs all vetting done. Sugar, her baby, was hospitalized for pneumonia and also has severe dental diseases. Our goal is to raise $1415 to help CrisisDogsNC cover the costs of their
-                                                medical bills.
-                                                <br>
-                                        </div>
-                                    </div>
-                                    <div class="container_12">
-                                        <div class="grid_12">
-                                            <h2>Our 7th Mission - Completed!</h2>
-                                            <img src="images/bugsy.jpeg" alt="" wideth="400" height="300" class="img_inner fleft">
-                                            <div class="extra_wrapper">
-                                                <div class="text1 tx__2"><a href="#">Bugsy</a></div>
-                                                <p>After completing our goal for Dolly, we are ready to tackle our 7th large fundraising project… Bugsy! Bugsy was recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/).
-                                                    He is in need of dental work and eye scans. Our goal is to raise $1400 to help CrisisDogsNC cover the costs of his medical bills.
-                                                    <br>
-                                            </div>
-                                        </div>
-                                        <section id="content">
-                                            <div class="container_12">
-                                                <div class="grid_12">
-                                                    <h2>Our 6th Mission - Completed :)</h2>
-                                                    <img src="images/dolly.jpeg" alt="" wideth="400" height="300" class="img_inner fleft">
-                                                    <div class="extra_wrapper">
-                                                        <div class="text1 tx__2"><a href="#">Dolly</a></div>
-                                                        <p>Our sixth mission is our largest one yet. Meet Dolly! Dolly was recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). She was in very poor health when they
-                                                            found her and is in extreme need of dental and eye removal. Our goal is to raise $1630 to help CrisisDogsNC cover the costs of her surgeries.
-                                                            <br>
-                                                    </div>
-                                                </div>
-                                                <section id="content">
-                                                    <div class="container_12">
-                                                        <div class="grid_12">
-                                                            <h2>Our 5th Mission - Completed!</h2>
-                                                            <img src="images/sophie.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                                                            <div class="extra_wrapper">
-                                                                <div class="text1 tx__2"><a href="#">Sophie, aka Sweetpea</a></div>
-                                                                <p>We have now made it to our fifth mission! Meet Sophie, aka Sweetpea! Sophie has had a hard life in terms of finding a forever home. CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/)
-                                                                    has been kind enough to pay for her care until they are able to find a stable foster home for her. Our goal is to raise $400 to help CrisisDogsNC continue to support Sophie until she
-                                                                    finds a home. For more information on Sophie, or to adopt her, visit https://crisisdogsnc.org/dog/sweet-pea/.
-                                                                    <br>
-                                                            </div>
-                                                        </div>
-                                                        <section id="content">
-                                                            <div class="container_12">
-                                                                <div class="grid_12">
-                                                                    <h2>Our 4th Mission - Completed :)</h2>
-                                                                    <img src="images/busterbrown.jpeg" alt="" wideth="400" height="300" class="img_inner fleft">
-                                                                    <div class="extra_wrapper">
-                                                                        <div class="text1 tx__2"><a href="#">Buster Brown</a></div>
-                                                                        <p>Our fourth mission is to make a difference in Buster Brown's life. He was hit by a car very recently and is currently at the vet after being rescued by CrisisDogsNC (for more information
-                                                                            visit https://www.crisisdogsnc.org/). Buster Brown needs surgery due to his fractured pelvis on one side and a smashed sacrum. Our goal is to raise $1000 to help CrisisDogsNC
-                                                                            cover the costs of his surgery. </p>
-
-                                                                        <br>
-                                                                    </div>
-                                                                </div>
-                                                                <section id="content">
-                                                                    <div class="container_12">
-                                                                        <div class="grid_12">
-                                                                            <h2>Our 3rd Mission - Completed!</h2>
-                                                                            <img src="images/chloe.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                                                                            <div class="extra_wrapper">
-                                                                                <div class="text1 tx__2"><a href="#">Chloe</a></div>
-                                                                                <p> Now that we have completed two missions, we are moving onto making a difference in the life of a third animal in need. Chloe. She is a new rescue dog at CrisisDogsNC (for
-                                                                                    more information visit https://www.crisisdogsnc.org/). In her previous home, her owner threatened to shoot her. CrisisDogsNC tried to get her away from the situation for
-                                                                                    months and finally he agreed to let her go. She has no vetting. Our goal for Chloe is to raise $235 for her medical needs, including shots and spaying. </p>
-                                                                                <br>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="container_12">
-                                                                            <div class="grid_12">
-                                                                                <h2>Our 2nd Mission - Completed! </h2>
-                                                                                <img src="images/palmer.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                                                                                <div class="extra_wrapper">
-                                                                                    <div class="text1 tx__2"><a href="#">Palmer</a></div>
-                                                                                    <p> After successfully completing our first mission, we are moving onto making a difference in the life of another animal in need. Palmer. Palmer is an Australian cattle dog
-                                                                                        mix at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). In his past, Palmer has been seriously neglected. He has damaged and sore-covered paw
-                                                                                        pads, sanded down teeth, and has tested positive for heartworm. Our initial goal for Palmer is to raise $200 for his wound treatment and neutering. You can help us
-                                                                                        reach our goal and make a difference in Palmer's life by purchasing our rings or donating directly to his cause. 100% of the profits made by our rings will go towards
-                                                                                        animals in need.
-                                                                                    </p>
-                                                                                    <br>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="clear"></div>
-                                                                        </div>
-                                                                        <div class="container_12">
-                                                                            <div class="grid_12">
-                                                                                <h2>Our 1st Mission - Completed :)</h2>
-                                                                                <img src="images/sadiemae1.png" alt="" wideth="400" height="300" class="img_inner fleft">
-                                                                                <div class="extra_wrapper">
-                                                                                    <div class="text1 tx__2"><a href="#">Sadie Mae</a></div>
-                                                                                    <p> Our first mission. Sadie Mae. Sadie Mae is an 8 month old puppy at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Sadie Mae needs fundraising
-                                                                                        because she needs to be spayed and chipped. Raising $130 is our goal for Sadie Mae, covering both of those costs.</p>
-                                                                                    <br>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="clear"></div>
-                                                                            <!--==============================
-                                      footer
-                        =================================-->
-                                                                            <!-- <footer id="footer">
-                          <div class="container_12">
-                            <div class="grid_12"> 
-                              <h1 class="logo">
-                                <a href="index.html">
-                                  LIGHT
-                                </a>
-                              </h1>
-                              <div class="socials">
-                                <a href="#" class="fa fa-twitter"></a>
-                                <a href="#" class="fa fa-facebook"></a>
-                                <a href="#" class="fa fa-google-plus"></a>
-                                <a href="#" class="fa fa-pinterest"></a>
-                              </div>
-                              <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
-                            </div>
-                            <div class="clear"></div>
-                          </div>  
-                        </footer> -->
-                                                                            <a href="#" id="toTop" class="fa fa-angle-up"></a>
-                        </body>
-
-                        </html>
-                        <div class="clear"></div>
-                        <!--==============================
-              footer
-=================================-->
-                        <!-- <footer id="footer">
-  <div class="container_12">
-    <div class="grid_12"> 
-      <h1 class="logo">
-        <a href="index.html">
-          LIGHT
-        </a>
-      </h1>
-      <div class="socials">
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-google-plus"></a>
-        <a href="#" class="fa fa-pinterest"></a>
-      </div>
-      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+    <div class="container-fluid">
+        <hr class="m-0">
     </div>
-    <div class="clear"></div>
-  </div>  
-</footer> -->
-                        <a href="#" id="toTop" class="fa fa-angle-up"></a>
+    <section id="latest-blog " class="my-5 ">
+        <div class="container">
+            <div class="row mt-5 ">
+                <div class="section-header d-md-flex justify-content-between align-items-center mb-3 ">
+                    <h2 class="display-3 fw-normal ">Our Completed Missions!</h2>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 my-4 my-md-0 ">
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/sugarhoney.jpeg " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Sugar and Honey</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">Meet our first fundraising duo: Sugar and Honey! This mother and daughter were recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Honey, mom to Sugar, has severe dental disease,
+                                    cherry eye, and needs all vetting done. Sugar, her baby, was hospitalized for pneumonia and also has severe dental diseases. Our goal is to raise $1415 to help CrisisDogsNC cover the costs of their medical bills.
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 my-md-0 ">
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/bugsy.jpeg " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Bugsy</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">After completing our goal for Dolly, we are ready to tackle our 7th large fundraising project… Bugsy! Bugsy was recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). He is in need
+                                    of dental work and eye scans. Our goal is to raise $1400 to help CrisisDogsNC cover the costs of his medical bills.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 my-md-0 ">
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/dolly.jpeg " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Dolly</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">Our sixth mission is our largest one yet. Meet Dolly! Dolly was recently rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). She was in very poor health when they found her and is in extreme
+                                    need of dental and eye removal. Our goal is to raise $1630 to help CrisisDogsNC cover the costs of her surgeries.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 my-md-0 ">
+
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/sophie.png " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Sophie, aka Sweetpea</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">We have now made it to our fifth mission! Meet Sophie, aka Sweetpea! Sophie has had a hard life in terms of finding a forever home. CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/) has been kind enough
+                                    to pay for her care until they are able to find a stable foster home for her. Our goal is to raise $400 to help CrisisDogsNC continue to support Sophie until she finds a home. For more information on Sophie, or to adopt
+                                    her, visit https://crisisdogsnc.org/dog/sweet-pea/.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 my-md-0 ">
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/busterbrown.jpeg " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Buster Brown</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">Our fourth mission is to make a difference in Buster Brown's life. He was hit by a car very recently and is currently at the vet after being rescued by CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/).
+                                    Buster Brown needs surgery due to his fractured pelvis on one side and a smashed sacrum. Our goal is to raise $1000 to help CrisisDogsNC cover the costs of his surgery.
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 my-md-0 ">
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/chloe.png " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Chloe</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">Now that we have completed two missions, we are moving onto making a difference in the life of a third animal in need. Chloe. She is a new rescue dog at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/).
+                                    In her previous home, her owner threatened to shoot her. CrisisDogsNC tried to get her away from the situation for months and finally he agreed to let her go. She has no vetting. Our goal for Chloe is to raise $235
+                                    for her medical needs, including shots and spaying.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 my-md-0 ">
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/palmer.png " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Palmer</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">After successfully completing our first mission, we are moving onto making a difference in the life of another animal in need. Palmer. Palmer is an Australian cattle dog mix at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/).
+                                    In his past, Palmer has been seriously neglected. He has damaged and sore-covered paw pads, sanded down teeth, and has tested positive for heartworm. Our initial goal for Palmer is to raise $200 for his wound treatment
+                                    and neutering. You can help us reach our goal and make a difference in Palmer's life by purchasing our rings or donating directly to his cause. 100% of the profits made by our rings will go towards animals in need.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 my-md-0 ">
+                    <div class="cardmission position-relative ">
+                        <a href=" "><img src="images/sadiemae1.png " class="img-fluid rounded-4 " alt="image "></a>
+                        <div class="card-body p-0 ">
+                            <a href=" ">
+                                <h3 class="card-title pt-4 pb-3 m-0 ">Sadie Mae</h3>
+                            </a>
+
+                            <div class="card-text ">
+                                <p class="blog-paragraph fs-6 ">Our first mission. Sadie Mae. Sadie Mae is an 8 month old puppy at CrisisDogsNC (for more information visit https://www.crisisdogsnc.org/). Sadie Mae needs fundraising because she needs to be spayed and chipped. Raising
+                                    $130 is our goal for Sadie Mae, covering both of those costs.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <script src="js/jquery-1.11.0.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe " crossorigin="anonymous "></script>
+    <script src="js/plugins.js "></script>
+    <script src="js/script.js "></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js "></script>
 </body>
+
+</html>
 
 </html>
